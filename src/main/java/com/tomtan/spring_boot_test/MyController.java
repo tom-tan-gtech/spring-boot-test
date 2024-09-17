@@ -14,7 +14,7 @@ public class MyController {
     public void getMethod() throws InterruptedException {
 
         System.out.println(bean.get());
-        Thread.sleep(5000);
+        // Thread.sleep(5000);
         System.out.print(bean.get());
 
     }
